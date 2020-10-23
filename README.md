@@ -4,7 +4,7 @@ Nexys Video AXI PS2 Keyboard
 Description
 -----------
 
-This project demonstrates how to use the Nexys Video's USB HID Host port and USB UART bridge with Microblaze. Vivado is used to build the demo's hardware platform, and Xilinx SDK is used to program the bitstream onto the board and to build and deploy a C application.  When programmed onto the board, whenever the user presses a key on a keyboard connected to the USB HID port (J15, labeled "USB HOST"), a scan code is sent to the Nexys Video through a PS/2 interface. This scan code is read, converted to ASCII and transmitted to the computer via the USB-UART bridge. In practice, this means that keys pressed on the keyboard connected to the Nexys Video are echoed over the serial connection.
+This project demonstrates how to use the Nexys Video's USB HID Host port and USB UART bridge with Microblaze. Vivado is used to build the demo's hardware platform, and Vitis is used to program the bitstream onto the board and to build and deploy a C application. When programmed onto the board, whenever the user presses a key on a keyboard connected to the USB HID port (J15, labeled "USB HOST"), a scan code is sent to the Nexys Video through a PS/2 interface. This scan code is read, converted to ASCII and transmitted to the computer via the USB-UART bridge. In practice, this means that keys pressed on the keyboard connected to the Nexys Video are echoed over the serial connection.
 
 To use this demo, the Nexys Video must be connected to a computer over MicroUSB, which must be running a serial terminal such as Tera Term or PuTTY.
 
